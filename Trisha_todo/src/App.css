@@ -1,0 +1,56 @@
+  :root {
+    --text-h: #fbaaf0;
+    --text: #3a4b83;
+    --bg: #291101;
+    --border: #472010dc;
+    --code-bg: #f5ecb1;
+    --accent: #8fc5ce;
+    --accent-bg: rgba(91, 197, 197, 0.781);
+    --accent-border: rgba(29, 21, 87, 0.5);
+    --social-bg: rgba(254, 247, 200, 0.5);
+    --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--text-h);
+  }
+
+  .Bigbox {
+    display: flex;
+    padding: 30px;
+    margin: 70px;
+    text-align: center;
+    color: var(--text);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--accent-bg);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+  }
+
+  .Taskbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--text);
+    padding: 10px;
+    background-color: var(--accent-bg);
+    border-radius: 5px;
+    border: 1px solid var(--accent-border);
+    flex-wrap: wrap;
+  }
+
+  .style {
+    background-color: var(--accent);
+    color: var(--text);
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
