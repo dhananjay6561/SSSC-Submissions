@@ -1,0 +1,140 @@
+.todo-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid var(--border-color);
+  background: var(--input-bg);
+  color: var(--text-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--input-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.filter-buttons button {
+  flex: 1;
+}
+
+.filter-buttons button.active {
+  background: var(--text-color);
+  color: var(--card-bg);
+  border-color: var(--text-color);
+  font-weight: bold;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--input-bg);
+  color: var(--text-color);
+}
+
+.todo-item p {
+  flex: 1;
+  margin: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.due-date {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.priority {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.High {
+  background: #ffcccc;
+  color: #990000;
+}
+
+.Medium {
+  background: #ffe5cc;
+  color: #995500;
+}
+
+.Low {
+  background: #e5ffe5;
+  color: #006600;
+}
+
+.progress-section {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 12px;
+  background: var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #2ed573;
+  transition: width 0.3s;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 15px;
+}
