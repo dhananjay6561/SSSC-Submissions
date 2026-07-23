@@ -1,16 +1,61 @@
-# React + Vite
+# Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple Todo List application built using **React** and **Vite**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add a new task
+* Delete a task
+* Mark a task as completed
+* Each task has a unique ID using the `uuid` library
+* Simple and responsive user interface
+* CSS styling using `App.css`
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript
+* CSS
+* UUID
+* Font Awesome
 
-## Expanding the Oxlint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone the repository.
+2. Open the project folder.
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL shown in the terminal (usually `http://localhost:5173`).
+
+## Project Structure
+
+```text
+src/
+├── App.jsx
+├── TodoItem.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Future Improvements
+
+* Edit existing tasks
+* Save tasks using Local Storage
+* Add task categories
+* Add due dates
+
+## Author
+
+**Payal**
