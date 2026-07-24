@@ -1,0 +1,53 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  border: 5px solid magenta;
+  border-radius: 8px;
+  background-color: rgb(31, 255, 207);
+}
+li span {
+  flex: 1;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+}
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color:crimson;
+}
+.completed {
+  text-decoration: line-through;
+  color:black;
+}
+li button {
+  margin-left: 20px;
+}
+input {
+  width: 450px;
+  height: 42px;
+  padding: 8px;
+  font-size: 18px;
+  background-color:rgb(238, 117, 238);
+  color: black;
+  border: 5px solid purple;
+  border-radius: 6px;
+   margin-right: 20px;
+}
+input::placeholder {
+  color: black;
+}
